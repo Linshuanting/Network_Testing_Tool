@@ -1,24 +1,36 @@
 import time
 import logging
-from scapy.all import IP, ICMP, srl
+from scapy.all import IP, ICMP, sr1, sniff, conf
 
 logger = logging.getLogger(__name__)
+conf.use_pcap = True
 
 class MYICMP:
-    def __init__():
+    def __init__(self):
         pass
 
     def ping(self, target, timeout=1):
         pkt = IP(dst=target)/ICMP()
-        reply = srl(pkt, timeout=timeout, verbose=0)
+        start = time.time()
+        reply = sr1(pkt, timeout=timeout, verbose=0)
+        end = time.time()
+
+        # 除錯用：如果沒收到，來 sniff 看看是不是其實有回來
+        if reply is None:
+            sniffed = sniff(filter=f"icmp and host {target}", timeout=timeout)
+            if sniffed:
+                logger.warning(f"Sniffed ICMP reply from {target}, but sr1 didn't capture it.")
+            else:
+                logger.warning(f"No ICMP reply received or sniffed from {target}.")
+
         if reply:
-            rtt = (reply.time - pkt.sent_time) * 1000
+            rtt = (end - start) * 1000
             logger.info(f"  Get Reply from {target}, time:{rtt}, ttl:{reply.ttl}")
             return rtt
         logger.info(f"  Doesn't get Reply from {target}")
         return None
     
-    def ping_multiple(self, target, count=4, interval=1, timeout=1, retry=3):
+    def ping_multiple(self, target, count=4, interval=1, timeout=1, retry=3, retry_interval=0.2):
         rtt_samples = []
         lost = 0
 
@@ -36,7 +48,7 @@ class MYICMP:
                     success = True
                     break
                 else:
-                    time.sleep(0.2)
+                    time.sleep(retry_interval)
             
             if not success:
                 logger.info(f"  Lost Packet from {target}")
@@ -58,3 +70,4 @@ class MYICMP:
             "RTT_min": f"{rtt_min}ms" if rtt_min else "N/A",
             "packet_loss": f"{packet_loss}%"
         }
+    
