@@ -3,7 +3,11 @@ import logging
 import os
 
 # 自動定位 log 收集檔案路徑
-log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "network_test.log")
+base_dir = os.path.dirname(os.path.abspath(__file__))
+log_dir = os.path.join(base_dir, "log")
+os.makedirs(log_dir, exist_ok=True)  # 若不存在自動建立 Log 資料夾
+
+log_path = os.path.join(log_dir, "network_test.log")
 
 # 建立公用 logger
 logger = logging.getLogger("network_tool")
