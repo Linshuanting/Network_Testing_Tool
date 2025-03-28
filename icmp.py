@@ -2,8 +2,8 @@ import time
 import logging
 import datetime
 from scapy.all import IP, ICMP, sr1, sniff, conf
+from log import logger
 
-logger = logging.getLogger(__name__)
 conf.use_pcap = True
 
 class MYICMP:

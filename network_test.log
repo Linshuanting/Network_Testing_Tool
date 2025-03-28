@@ -1,0 +1,9 @@
+[16:29:37] INFO: --- Start Ping Target:192.168.1.219 ---
+[16:29:37] INFO: Ping 192.168.1.219 with timeout:1
+[16:29:38] INFO:   Get Reply from 192.168.1.219, time:142.0ms, ttl:128
+[16:29:38] INFO: Ping 192.168.1.219 with timeout:1
+[16:29:38] INFO:   Get Reply from 192.168.1.219, time:9.0ms, ttl:128
+[16:29:39] INFO: Ping 192.168.1.219 with timeout:1
+[16:29:39] INFO:   Get Reply from 192.168.1.219, time:16.0ms, ttl:128
+[16:29:39] INFO: Ping 192.168.1.219 with timeout:1
+[16:29:40] INFO:   Get Reply from 192.168.1.219, time:11.0ms, ttl:128
