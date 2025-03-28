@@ -20,7 +20,7 @@ if not logger.hasHandlers():
     file_handler.setLevel(logging.INFO)
 
     # Formatter
-    formatter = logging.Formatter('[%(asctime)s] %(levelname)s: %(message)s', datefmt='%H:%M:%S')
+    formatter = logging.Formatter('[%(asctime)s] [%(threadName)s] %(levelname)s: %(message)s', datefmt='%H:%M:%S')
     console_handler.setFormatter(formatter)
     file_handler.setFormatter(formatter)
 

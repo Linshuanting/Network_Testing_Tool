@@ -1,9 +1,83 @@
-[16:29:37] INFO: --- Start Ping Target:192.168.1.219 ---
-[16:29:37] INFO: Ping 192.168.1.219 with timeout:1
-[16:29:38] INFO:   Get Reply from 192.168.1.219, time:142.0ms, ttl:128
-[16:29:38] INFO: Ping 192.168.1.219 with timeout:1
-[16:29:38] INFO:   Get Reply from 192.168.1.219, time:9.0ms, ttl:128
-[16:29:39] INFO: Ping 192.168.1.219 with timeout:1
-[16:29:39] INFO:   Get Reply from 192.168.1.219, time:16.0ms, ttl:128
-[16:29:39] INFO: Ping 192.168.1.219 with timeout:1
-[16:29:40] INFO:   Get Reply from 192.168.1.219, time:11.0ms, ttl:128
+[17:25:39] [MainThread] INFO: --- Start Ping Target:192.168.1.219 ---
+[17:25:39] [MainThread] INFO: Ping 192.168.1.219 with timeout:1
+[17:25:39] [MainThread] INFO:   Get Reply from 192.168.1.219, time:126.0ms, ttl:128
+[17:25:40] [MainThread] INFO: Ping 192.168.1.219 with timeout:1
+[17:25:40] [MainThread] INFO:   Get Reply from 192.168.1.219, time:14.0ms, ttl:128
+[17:25:40] [MainThread] INFO: Ping 192.168.1.219 with timeout:1
+[17:25:40] [MainThread] INFO:   Get Reply from 192.168.1.219, time:11.0ms, ttl:128
+[17:25:41] [MainThread] INFO: Ping 192.168.1.219 with timeout:1
+[17:25:41] [MainThread] INFO:   Get Reply from 192.168.1.219, time:9.0ms, ttl:128
+[17:25:41] [MainThread] INFO: --- Start Ping Target:8.8.8.8 ---
+[17:25:41] [MainThread] INFO: Ping 8.8.8.8 with timeout:1
+[17:25:43] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:25:43] [MainThread] INFO:   Retry connect 8.8.8.8
+[17:25:44] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:25:44] [MainThread] INFO:   Retry connect 8.8.8.8
+[17:25:45] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:25:45] [MainThread] INFO:   Retry connect 8.8.8.8
+[17:25:46] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:25:46] [MainThread] INFO:   Lost Packet from 8.8.8.8
+[17:25:47] [MainThread] INFO: Ping 8.8.8.8 with timeout:1
+[17:25:48] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:25:48] [MainThread] INFO:   Retry connect 8.8.8.8
+[17:25:49] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:25:49] [MainThread] INFO:   Retry connect 8.8.8.8
+[17:25:50] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:25:51] [MainThread] INFO:   Retry connect 8.8.8.8
+[17:25:52] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:25:52] [MainThread] INFO:   Lost Packet from 8.8.8.8
+[17:25:52] [MainThread] INFO: Ping 8.8.8.8 with timeout:1
+[17:25:53] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:25:54] [MainThread] INFO:   Retry connect 8.8.8.8
+[17:25:55] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:25:55] [MainThread] INFO:   Retry connect 8.8.8.8
+[17:25:56] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:25:56] [MainThread] INFO:   Retry connect 8.8.8.8
+[17:25:57] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:25:57] [MainThread] INFO:   Lost Packet from 8.8.8.8
+[17:25:58] [MainThread] INFO: Ping 8.8.8.8 with timeout:1
+[17:25:59] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:25:59] [MainThread] INFO:   Retry connect 8.8.8.8
+[17:26:00] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:26:00] [MainThread] INFO:   Retry connect 8.8.8.8
+[17:26:01] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:26:01] [MainThread] INFO:   Retry connect 8.8.8.8
+[17:26:02] [MainThread] INFO:   Doesn't get Reply from 8.8.8.8
+[17:26:03] [MainThread] INFO:   Lost Packet from 8.8.8.8
+[17:26:03] [MainThread] INFO: --- Start Ping Target:fe80::727a:1656:57eb:5d2e ---
+[17:26:03] [MainThread] INFO: Ping fe80::727a:1656:57eb:5d2e with timeout:1
+[17:26:05] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:05] [MainThread] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:26:07] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:08] [MainThread] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:26:10] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:10] [MainThread] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:26:12] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:12] [MainThread] INFO:   Lost Packet from fe80::727a:1656:57eb:5d2e
+[17:26:13] [MainThread] INFO: Ping fe80::727a:1656:57eb:5d2e with timeout:1
+[17:26:15] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:15] [MainThread] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:26:17] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:17] [MainThread] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:26:19] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:19] [MainThread] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:26:21] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:22] [MainThread] INFO:   Lost Packet from fe80::727a:1656:57eb:5d2e
+[17:26:22] [MainThread] INFO: Ping fe80::727a:1656:57eb:5d2e with timeout:1
+[17:26:24] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:24] [MainThread] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:26:26] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:27] [MainThread] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:26:29] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:29] [MainThread] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:26:31] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:31] [MainThread] INFO:   Lost Packet from fe80::727a:1656:57eb:5d2e
+[17:26:32] [MainThread] INFO: Ping fe80::727a:1656:57eb:5d2e with timeout:1
+[17:26:34] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:34] [MainThread] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:26:36] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:36] [MainThread] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:26:38] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:38] [MainThread] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:26:40] [MainThread] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:26:41] [MainThread] INFO:   Lost Packet from fe80::727a:1656:57eb:5d2e

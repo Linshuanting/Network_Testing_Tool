@@ -1,0 +1,83 @@
+[17:24:28] [ICMP_0] INFO: --- Start Ping Target:192.168.1.219 ---
+[17:24:28] [ICMP_0] INFO: Ping 192.168.1.219 with timeout:1
+[17:24:28] [ICMP_2] INFO: --- Start Ping Target:fe80::727a:1656:57eb:5d2e ---
+[17:24:28] [ICMP_1] INFO: --- Start Ping Target:8.8.8.8 ---
+[17:24:28] [ICMP_1] INFO: Ping 8.8.8.8 with timeout:1
+[17:24:28] [ICMP_2] INFO: Ping fe80::727a:1656:57eb:5d2e with timeout:1
+[17:24:29] [ICMP_0] INFO:   Get Reply from 192.168.1.219, time:133.0ms, ttl:128
+[17:24:29] [ICMP_0] INFO: Ping 192.168.1.219 with timeout:1
+[17:24:29] [ICMP_0] INFO:   Get Reply from 192.168.1.219, time:10.0ms, ttl:128
+[17:24:29] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:30] [ICMP_1] INFO:   Retry connect 8.8.8.8
+[17:24:30] [ICMP_0] INFO: Ping 192.168.1.219 with timeout:1
+[17:24:30] [ICMP_0] INFO:   Get Reply from 192.168.1.219, time:2.0ms, ttl:128
+[17:24:30] [ICMP_0] INFO: Ping 192.168.1.219 with timeout:1
+[17:24:30] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:24:30] [ICMP_0] INFO:   Get Reply from 192.168.1.219, time:13.0ms, ttl:128
+[17:24:31] [ICMP_2] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:24:31] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:31] [ICMP_1] INFO:   Retry connect 8.8.8.8
+[17:24:32] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:32] [ICMP_1] INFO:   Retry connect 8.8.8.8
+[17:24:33] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:24:33] [ICMP_2] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:24:33] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:33] [ICMP_1] INFO:   Lost Packet from 8.8.8.8
+[17:24:34] [ICMP_1] INFO: Ping 8.8.8.8 with timeout:1
+[17:24:35] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:35] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:24:35] [ICMP_1] INFO:   Retry connect 8.8.8.8
+[17:24:35] [ICMP_2] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:24:36] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:36] [ICMP_1] INFO:   Retry connect 8.8.8.8
+[17:24:37] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:24:37] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:37] [ICMP_2] INFO:   Lost Packet from fe80::727a:1656:57eb:5d2e
+[17:24:38] [ICMP_1] INFO:   Retry connect 8.8.8.8
+[17:24:38] [ICMP_2] INFO: Ping fe80::727a:1656:57eb:5d2e with timeout:1
+[17:24:39] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:39] [ICMP_1] INFO:   Lost Packet from 8.8.8.8
+[17:24:39] [ICMP_1] INFO: Ping 8.8.8.8 with timeout:1
+[17:24:40] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:24:40] [ICMP_2] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:24:40] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:40] [ICMP_1] INFO:   Retry connect 8.8.8.8
+[17:24:42] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:42] [ICMP_1] INFO:   Retry connect 8.8.8.8
+[17:24:42] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:24:42] [ICMP_2] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:24:43] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:43] [ICMP_1] INFO:   Retry connect 8.8.8.8
+[17:24:44] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:44] [ICMP_1] INFO:   Lost Packet from 8.8.8.8
+[17:24:44] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:24:45] [ICMP_2] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:24:45] [ICMP_1] INFO: Ping 8.8.8.8 with timeout:1
+[17:24:46] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:46] [ICMP_1] INFO:   Retry connect 8.8.8.8
+[17:24:47] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:24:47] [ICMP_2] INFO:   Lost Packet from fe80::727a:1656:57eb:5d2e
+[17:24:47] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:47] [ICMP_1] INFO:   Retry connect 8.8.8.8
+[17:24:47] [ICMP_2] INFO: Ping fe80::727a:1656:57eb:5d2e with timeout:1
+[17:24:48] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:48] [ICMP_1] INFO:   Retry connect 8.8.8.8
+[17:24:49] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:24:49] [ICMP_1] INFO:   Doesn't get Reply from 8.8.8.8
+[17:24:50] [ICMP_2] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:24:50] [ICMP_1] INFO:   Lost Packet from 8.8.8.8
+[17:24:52] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:24:52] [ICMP_2] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:24:54] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:24:54] [ICMP_2] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:24:56] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:24:56] [ICMP_2] INFO:   Lost Packet from fe80::727a:1656:57eb:5d2e
+[17:24:57] [ICMP_2] INFO: Ping fe80::727a:1656:57eb:5d2e with timeout:1
+[17:24:59] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:24:59] [ICMP_2] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:25:01] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:25:01] [ICMP_2] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:25:03] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:25:04] [ICMP_2] INFO:   Retry connect fe80::727a:1656:57eb:5d2e
+[17:25:06] [ICMP_2] INFO:   Doesn't get Reply from fe80::727a:1656:57eb:5d2e
+[17:25:06] [ICMP_2] INFO:   Lost Packet from fe80::727a:1656:57eb:5d2e
