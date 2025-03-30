@@ -29,7 +29,7 @@ pip install scapy
 ##  Project Structure
 ```
 network_testing_tool/
-├── icmp.py               # Core ICMP ping logic (parallel, IPv4+IPv6)
+├── icmp.py               # Core ICMP ping logic (sequence and parallel, IPv4+IPv6)
 ├── log.py                # Logger configuration (file + console)
 ├── network_tool.py       # Main script to execute the test
 ├── log/                  # Folder where logs are saved
