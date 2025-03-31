@@ -12,6 +12,7 @@ if __name__ == "__main__":
     parser.add_argument("--rate", type=int, default=2)
     parser.add_argument("--retry-count", type=int)
     parser.add_argument("--retry-interval", type=float)
+    parser.add_argument("--parallel", action="store_true")
     args = parser.parse_args()
 
     count = args.duration * args.rate
@@ -31,8 +32,11 @@ if __name__ == "__main__":
         icmp_kwargs["retry_interval"] = args.retry_interval
 
     myicmp = MYICMP()
-    results = myicmp.ping_targets(**icmp_kwargs)
-    # results = myicmp.ping_targets_multithread(**icmp_kwargs)
+    
+    if args.parallel:
+        results = myicmp.ping_targets_multithread(**icmp_kwargs)
+    else:
+        results = myicmp.ping_targets(**icmp_kwargs)
 
     end_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 

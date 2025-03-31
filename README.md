@@ -57,6 +57,7 @@ sudo python3 network_tool.py \
 | `--rate`           | Pings per second                           | `2`     |
 | `--retry-count`    | Retry if no reply                          | Optional |
 | `--retry-interval` | Interval between retries (in seconds)      | Optional |
+| `--parallel`       | Run multi target in parallel               | Optional |
 
 ---
 
